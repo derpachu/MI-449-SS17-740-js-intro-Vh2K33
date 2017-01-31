@@ -1,7 +1,7 @@
 var basebuttonElement = document.getElementById("base");
 
 basebuttonElement.addEventListener("click",function(){document.getElementById("Base").play()});
-basebuttonElement.addEventListener("mouseenter",function(){document.getElementById("Kick").play()});
+basebuttonElement.addEventListener("mouseenter",function(){document.getElementById("Tink").play()});
 
 var basebuttonElement = document.getElementById("clap");
 
