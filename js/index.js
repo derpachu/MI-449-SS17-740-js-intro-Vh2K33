@@ -1,14 +1,38 @@
 var basebuttonElement = document.getElementById("base");
+var basePlay = document.getElementById("Base");
+var tinkPlay = document.getElementById("Tink");
 
-basebuttonElement.addEventListener("click",function(){document.getElementById("Base").play()});
-basebuttonElement.addEventListener("mouseenter",function(){document.getElementById("Tink").play()});
+basebuttonElement.addEventListener("click",function()
+{
+  basePlay.play()
+});
+basebuttonElement.addEventListener("mouseenter",function()
+{
+  tinkPlay.play()
+});
 
-var basebuttonElement = document.getElementById("clap");
+var clapbuttonElement = document.getElementById("clap");
+var clapPlay = document.getElementById("Clap");
+var snarePlay = document.getElementById("Snare");
 
-basebuttonElement.addEventListener("click",function(){document.getElementById("Clap").play()});
-basebuttonElement.addEventListener("mouseenter",function(){document.getElementById("Snare").play()});
+clapbuttonElement.addEventListener("click",function()
+{
+  clapPlay.play()
+});
+clapbuttonElement.addEventListener("mouseenter",function()
+{
+  snarePlay.play()
+});
 
-var basebuttonElement = document.getElementById("hihat");
+var hatbuttonElement = document.getElementById("hihat");
+var hihatPlay = document.getElementById("Hihat");
+var openhatPlay = document.getElementById("Openhat");
 
-basebuttonElement.addEventListener("click",function(){document.getElementById("Hihat").play()});
-basebuttonElement.addEventListener("mouseenter",function(){document.getElementById("Openhat").play()});
+hatbuttonElement.addEventListener("click",function()
+{
+  hihatPlay.play()
+});
+hatbuttonElement.addEventListener("mouseenter",function()
+{
+  openhatPlay.play()
+});
